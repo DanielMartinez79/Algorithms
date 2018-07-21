@@ -7,7 +7,7 @@ Created on Wed Oct 25 18:36:12 2017
 This lab defines 2 methods for finding the maximum sequential subarray
 The first method perofrms in O(nlogn) while the second perrforms in O(n)
 """
-
+import random
 def mssnlogn(a, start, end):
     if(end == start):
         return a[start]
